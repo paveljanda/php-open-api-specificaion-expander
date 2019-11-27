@@ -34,7 +34,7 @@ final class OpenAPIExpander
 	}
 
 
-	public function diveAndReplace(array &$refNode): void
+	private function diveAndReplace(array &$refNode): void
 	{
 		foreach ($refNode as $key => $node) {
 			if (is_array($refNode[$key])) {
