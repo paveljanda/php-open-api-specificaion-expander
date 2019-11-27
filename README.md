@@ -18,7 +18,7 @@ composer require paveljanda/php-openapi-specificaion-expander
 ## Example - YAML
 
 ```php
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 use PavelJanda\OpenAPIExpander\OpenAPIExpander;
 use Symfony\Component\Yaml\Yaml;
@@ -33,7 +33,7 @@ echo Yaml::dump($expandedData, 100, 2);
 ## Example - JSON
 
 ```php
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 use PavelJanda\OpenAPIExpander\OpenAPIExpander;
 
