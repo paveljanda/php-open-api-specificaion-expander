@@ -15,6 +15,7 @@ This tool let's you expand recursively definitions in open api specifiation (JSO
 composer require paveljanda/php-openapi-specificaion-expander
 ```
 
+
 ## Example - YAML
 
 ```php
@@ -29,6 +30,7 @@ $expandedData = (new OpenAPIExpander)->expand($specData);
 
 echo Yaml::dump($expandedData, 100, 2);
 ```
+
 
 ## Example - JSON
 
