@@ -12,7 +12,7 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"PavelJanda\\OpenAPISpecificaionExpander\\": "src/"
+			"PavelJanda\\OpenAPIExpander\\": "src/"
 		}
 	},
 	"require": {

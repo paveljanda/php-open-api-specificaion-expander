@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PavelJanda\OpenAPISpecificaionExpander;
+namespace PavelJanda\OpenAPIExpander;
 
 final class OpenAPIExpander
 {
