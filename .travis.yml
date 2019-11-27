@@ -12,4 +12,3 @@ install:
 script:
   - composer phpstan
   - composer phpcs
-  - composer tests
